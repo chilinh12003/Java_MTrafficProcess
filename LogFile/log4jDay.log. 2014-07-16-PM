@@ -1,0 +1,16 @@
+2014-07-16 21:11:15,322 | DEBUG | [main] | class MyProcessServer.LocalConfig:loadProperties(181) ----> Reading configuration file config.properties 
+2014-07-16 21:11:21,003 |  INFO | [Thread-4] | class MyProcessServer.ProcessLoadKeyword:run(115) ----> LoadConfig - Start 
+2014-07-16 21:11:30,916 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(115) ----> Loaded. 
+2014-07-16 21:11:30,918 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(227) ----> loadSMSDataTable:data.dat 
+2014-07-16 21:11:30,919 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(236) ----> data.dat is empty 
+2014-07-16 21:11:30,921 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(279) ----> Deleting.....: data.dat 
+2014-07-16 21:11:30,921 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(227) ----> loadSMSDataTable:receivelog.dat 
+2014-07-16 21:11:30,922 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(236) ----> receivelog.dat is empty 
+2014-07-16 21:11:30,922 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(279) ----> Deleting.....: receivelog.dat 
+2014-07-16 21:11:30,923 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(122) ----> Start: LoadMO 
+2014-07-16 21:11:31,075 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(139) ----> Start: ExecuteQueue 
+2014-07-16 21:11:31,205 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(147) ----> Start: ExecuteInsertReceiveLog 
+2014-07-16 21:11:31,911 | DEBUG | [Thread-20] | class MyProcess.CheckCharge:run(31) ----> ---------------BAT DAU CHECK CHARGING -------------------- 
+2014-07-16 21:11:31,915 | DEBUG | [Thread-0] | class MyProcessServer.ConsoleSRV:run(358) ----> Listen MO............................................................... 
+2014-07-16 21:11:31,925 | DEBUG | [Thread-20] | class MyProcess.CheckCharge:run(61) ----> CHECK CHARGING SE Delay 60 Phut. 
+2014-07-16 21:11:31,926 | DEBUG | [Thread-20] | class MyProcess.CheckCharge:run(62) ----> ---------------KET THUC CHECK PUSH -------------------- 

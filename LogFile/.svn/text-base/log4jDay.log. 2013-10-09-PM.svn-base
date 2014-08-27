@@ -1,0 +1,232 @@
+2013-10-09 15:04:48,207 | DEBUG | [main] | class MyProcessServer.LocalConfig:loadProperties(179) ----> Reading configuration file config.properties 
+2013-10-09 15:04:51,305 |  INFO | [Thread-4] | class MyProcessServer.ProcessLoadKeyword:run(115) ----> LoadConfig - Start 
+2013-10-09 15:04:54,642 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(115) ----> Loaded. 
+2013-10-09 15:04:54,642 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(227) ----> loadSMSDataTable:data.dat 
+2013-10-09 15:04:54,643 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(236) ----> data.dat is empty 
+2013-10-09 15:04:54,644 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(279) ----> Deleting.....: data.dat 
+2013-10-09 15:04:54,644 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(227) ----> loadSMSDataTable:receivelog.dat 
+2013-10-09 15:04:54,644 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(236) ----> receivelog.dat is empty 
+2013-10-09 15:04:54,645 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(279) ----> Deleting.....: receivelog.dat 
+2013-10-09 15:04:54,645 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(122) ----> Start: LoadMO 
+2013-10-09 15:04:54,726 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(139) ----> Start: ExecuteQueue 
+2013-10-09 15:04:54,798 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(147) ----> Start: ExecuteInsertReceiveLog 
+2013-10-09 15:04:54,911 | DEBUG | [Thread-20] | class MyProcess.CheckCharge:run(31) ----> ---------------BAT DAU CHECK CHARGING -------------------- 
+2013-10-09 15:04:54,912 | DEBUG | [Thread-0] | class MyProcessServer.ConsoleSRV:run(358) ----> Listen MO............................................................... 
+2013-10-09 15:04:54,913 | DEBUG | [Thread-20] | class MyProcess.CheckCharge:run(61) ----> CHECK CHARGING SE Delay 60 Phut. 
+2013-10-09 15:04:54,914 | DEBUG | [Thread-20] | class MyProcess.CheckCharge:run(62) ----> ---------------KET THUC CHECK PUSH -------------------- 
+2013-10-09 15:05:14,679 |  INFO | [Thread-8] | class MyProcessServer.LoadMO:run(125) ----> LoadMO AddToQueue-->ServiceID:9696 || MSISDN:841234091674 || Keyword:DK || Info:DK || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:05:14.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note:Q:9696[Size:0] 
+2013-10-09 15:05:14,679 |  INFO | [Thread-10] | class MyProcessServer.ExecuteQueue:run(102) ----> Check Exist Keyword-->ServiceID:9696 || MSISDN:841234091674 || Keyword:DK || Info:DK || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:05:14.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note:Keyword:DK 
+2013-10-09 15:05:14,683 |  INFO | [Thread-10] | class MyProcessServer.ExecuteQueue:processQueueMsg(181) ----> Call Class Process Keyword-->ServiceID:9696 || MSISDN:841234091674 || Keyword:DK || Info:DK || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:05:14.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note:ClassName:MyProcessMO.Register 
+2013-10-09 15:05:15,480 | DEBUG | [Thread-10] | class MyProcessMO.Register:getMessages(429) ----> -->ServiceID:9696 || MSISDN:841234091674 || Keyword:DK || Info:Quy Khach dang duoc mien phi su dung goi HB_diemnonggiaothong cua dich vu M-traffic. De biet them chi tiet, Quy Khach vui long lien he tong dai 9191 hoac truy cap website: http://vinaphone.com.vn || MessageType:1 || ContentType:21 || RequestID:1234567890 || RequestTime:2013-10-09 15:05:14.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note: 
+2013-10-09 15:05:15,602 | DEBUG | [Thread-10] | class MyProcessServer.ContentAbstract:sendMT(211) ----> ContentAbstract_SEND_MT-->ServiceID:9696 || MSISDN:841234091674 || Keyword:DK || Info:Quy Khach dang duoc mien phi su dung goi HB_diemnonggiaothong cua dich vu M-traffic. De biet them chi tiet, Quy Khach vui long lien he tong dai 9191 hoac truy cap website: http://vinaphone.com.vn || MessageType:1 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:05:14.0 || ChannelType:1 || TenDV: || MaDV: || MO:DK ||  Note:SEND MT THANH CONG 
+2013-10-09 15:05:15,603 |  INFO | [Thread-19] | class MyProcessServer.ExecuteInsertReceiveLog:add2SMSReceiveLog(104) ----> add2SMSReceiveLog:841234091674@DK 
+2013-10-09 15:05:53,105 |  INFO | [Thread-5] | class MyProcessServer.LoadMO:run(125) ----> LoadMO AddToQueue-->ServiceID:9696 || MSISDN:841234091674 || Keyword:HUY || Info:HUY || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:05:53.0 || ChannelType:4 || TenDV: || MaDV: || MO:HUY ||  Note:Q:9696[Size:1] 
+2013-10-09 15:05:53,113 |  INFO | [Thread-9] | class MyProcessServer.ExecuteQueue:run(102) ----> Check Exist Keyword-->ServiceID:9696 || MSISDN:841234091674 || Keyword:HUY || Info:HUY || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:05:53.0 || ChannelType:4 || TenDV: || MaDV: || MO:HUY ||  Note:Keyword:HUY 
+2013-10-09 15:05:53,116 |  INFO | [Thread-9] | class MyProcessServer.ExecuteQueue:processQueueMsg(181) ----> Call Class Process Keyword-->ServiceID:9696 || MSISDN:841234091674 || Keyword:HUY || Info:HUY || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:05:53.0 || ChannelType:4 || TenDV: || MaDV: || MO:HUY ||  Note:ClassName:MyProcessMO.ConfirmDeregister 
+2013-10-09 15:05:53,123 | ERROR | [Thread-9] | class MyProcessServer.ExecuteQueue:processQueueMsg(194) ----> -->ServiceID:9696 || MSISDN:841234091674 || Keyword:HUY || Info:HUY || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:05:53.0 || ChannelType:4 || TenDV: || MaDV: || MO:HUY ||  Note: 
+java.lang.ClassNotFoundException: MyProcessMO.ConfirmDeregister
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at MyProcessServer.ExecuteQueue.processQueueMsg(ExecuteQueue.java:184)
+	at MyProcessServer.ExecuteQueue.run(ExecuteQueue.java:106)
+2013-10-09 15:05:53,131 |  INFO | [Thread-19] | class MyProcessServer.ExecuteInsertReceiveLog:add2SMSReceiveLog(104) ----> add2SMSReceiveLog:841234091674@HUY 
+2013-10-09 15:06:32,179 |  INFO | [Thread-6] | class MyProcessServer.LoadMO:run(125) ----> LoadMO AddToQueue-->ServiceID:1546 || MSISDN:841234091674 || Keyword:HUY || Info:HUY || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:06:32.0 || ChannelType:4 || TenDV: || MaDV: || MO:HUY ||  Note:Q:1546[Size:1] 
+2013-10-09 15:06:32,190 |  INFO | [Thread-11] | class MyProcessServer.ExecuteQueue:run(102) ----> Check Exist Keyword-->ServiceID:1546 || MSISDN:841234091674 || Keyword:HUY || Info:HUY || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:06:32.0 || ChannelType:4 || TenDV: || MaDV: || MO:HUY ||  Note:Keyword:HUY 
+2013-10-09 15:06:32,191 |  INFO | [Thread-11] | class MyProcessServer.ExecuteQueue:processQueueMsg(181) ----> Call Class Process Keyword-->ServiceID:1546 || MSISDN:841234091674 || Keyword:HUY || Info:HUY || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:06:32.0 || ChannelType:4 || TenDV: || MaDV: || MO:HUY ||  Note:ClassName:MyProcessMO.Deregister 
+2013-10-09 15:06:32,634 | DEBUG | [Thread-11] | org.apache.http.impl.conn.BasicClientConnectionManager:getConnection(159) ----> Get connection for route {}->http://localhost:8080 
+2013-10-09 15:06:32,656 | DEBUG | [Thread-11] | org.apache.http.impl.conn.DefaultClientConnectionOperator:openConnection(177) ----> Connecting to localhost:8080 
+2013-10-09 15:06:32,684 | DEBUG | [Thread-11] | org.apache.http.client.protocol.RequestAddCookies:process(132) ----> CookieSpec selected: best-match 
+2013-10-09 15:06:32,704 | DEBUG | [Thread-11] | org.apache.http.client.protocol.RequestAuthCache:process(78) ----> Auth cache not set in the context 
+2013-10-09 15:06:32,704 | DEBUG | [Thread-11] | org.apache.http.client.protocol.RequestTargetAuthentication:process(78) ----> Target auth state: UNCHALLENGED 
+2013-10-09 15:06:32,705 | DEBUG | [Thread-11] | org.apache.http.client.protocol.RequestProxyAuthentication:process(87) ----> Proxy auth state: UNCHALLENGED 
+2013-10-09 15:06:32,706 | DEBUG | [Thread-11] | org.apache.http.impl.client.DefaultHttpClient:tryExecute(715) ----> Attempt 1 to execute request 
+2013-10-09 15:06:32,706 | DEBUG | [Thread-11] | org.apache.http.impl.conn.DefaultClientConnection:sendRequestHeader(269) ----> Sending request: POST /MTraffic_DataSync_V2/VNPCharge_TEst.ashx HTTP/1.1 
+2013-10-09 15:06:32,706 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> >> "POST /MTraffic_DataSync_V2/VNPCharge_TEst.ashx HTTP/1.1[\r][\n]" 
+2013-10-09 15:06:32,708 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> >> "Content-Length: 356[\r][\n]" 
+2013-10-09 15:06:32,709 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> >> "Content-Type: text/xml; charset=UTF-8[\r][\n]" 
+2013-10-09 15:06:32,709 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> >> "Host: localhost:8080[\r][\n]" 
+2013-10-09 15:06:32,709 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> >> "Connection: Keep-Alive[\r][\n]" 
+2013-10-09 15:06:32,709 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]" 
+2013-10-09 15:06:32,709 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> >> "[\r][\n]" 
+2013-10-09 15:06:32,710 | DEBUG | [Thread-11] | org.apache.http.headers:sendRequestHeader(273) ----> >> POST /MTraffic_DataSync_V2/VNPCharge_TEst.ashx HTTP/1.1 
+2013-10-09 15:06:32,710 | DEBUG | [Thread-11] | org.apache.http.headers:sendRequestHeader(276) ----> >> Content-Length: 356 
+2013-10-09 15:06:32,710 | DEBUG | [Thread-11] | org.apache.http.headers:sendRequestHeader(276) ----> >> Content-Type: text/xml; charset=UTF-8 
+2013-10-09 15:06:32,710 | DEBUG | [Thread-11] | org.apache.http.headers:sendRequestHeader(276) ----> >> Host: localhost:8080 
+2013-10-09 15:06:32,710 | DEBUG | [Thread-11] | org.apache.http.headers:sendRequestHeader(276) ----> >> Connection: Keep-Alive 
+2013-10-09 15:06:32,710 | DEBUG | [Thread-11] | org.apache.http.headers:sendRequestHeader(276) ----> >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5) 
+2013-10-09 15:06:32,711 | DEBUG | [Thread-11] | org.apache.http.wire:wire(77) ----> >> "<?xml version="1.0" encoding="utf-8" standalone="yes" ?><VAS request_id="1381305992307"><REQ name="MTRAFFIC" user="mtraffic" password="mtraffic#1235"><SUBSCRIBER><SUBID>841234091674</SUBID><PRICE>0</PRICE><REASON>UNREG_DN_WEEKLY</REASON><ORIGINALPRICE>0</ORIGINALPRICE><PROMOTION>0</PROMOTION><NOTE>HUY</NOTE><CHANNEL>WAP</CHANNEL></SUBSCRIBER></REQ></VAS>" 
+2013-10-09 15:06:42,456 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "HTTP/1.1 200 OK[\r][\n]" 
+2013-10-09 15:06:42,461 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "Cache-Control: private[\r][\n]" 
+2013-10-09 15:06:42,462 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "Content-Type: text/xml; charset=utf-8[\r][\n]" 
+2013-10-09 15:06:42,462 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "Server: Microsoft-IIS/7.5[\r][\n]" 
+2013-10-09 15:06:42,462 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "X-AspNet-Version: 2.0.50727[\r][\n]" 
+2013-10-09 15:06:42,462 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "X-Powered-By: ASP.NET[\r][\n]" 
+2013-10-09 15:06:42,463 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "Date: Wed, 09 Oct 2013 08:06:42 GMT[\r][\n]" 
+2013-10-09 15:06:42,463 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "Content-Length: 255[\r][\n]" 
+2013-10-09 15:06:42,463 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "[\r][\n]" 
+2013-10-09 15:06:42,465 | DEBUG | [Thread-11] | org.apache.http.impl.conn.DefaultClientConnection:receiveResponseHeader(254) ----> Receiving response: HTTP/1.1 200 OK 
+2013-10-09 15:06:42,466 | DEBUG | [Thread-11] | org.apache.http.headers:receiveResponseHeader(257) ----> << HTTP/1.1 200 OK 
+2013-10-09 15:06:42,466 | DEBUG | [Thread-11] | org.apache.http.headers:receiveResponseHeader(260) ----> << Cache-Control: private 
+2013-10-09 15:06:42,466 | DEBUG | [Thread-11] | org.apache.http.headers:receiveResponseHeader(260) ----> << Content-Type: text/xml; charset=utf-8 
+2013-10-09 15:06:42,466 | DEBUG | [Thread-11] | org.apache.http.headers:receiveResponseHeader(260) ----> << Server: Microsoft-IIS/7.5 
+2013-10-09 15:06:42,467 | DEBUG | [Thread-11] | org.apache.http.headers:receiveResponseHeader(260) ----> << X-AspNet-Version: 2.0.50727 
+2013-10-09 15:06:42,467 | DEBUG | [Thread-11] | org.apache.http.headers:receiveResponseHeader(260) ----> << X-Powered-By: ASP.NET 
+2013-10-09 15:06:42,467 | DEBUG | [Thread-11] | org.apache.http.headers:receiveResponseHeader(260) ----> << Date: Wed, 09 Oct 2013 08:06:42 GMT 
+2013-10-09 15:06:42,467 | DEBUG | [Thread-11] | org.apache.http.headers:receiveResponseHeader(260) ----> << Content-Length: 255 
+2013-10-09 15:06:42,477 | DEBUG | [Thread-11] | org.apache.http.impl.client.DefaultHttpClient:execute(545) ----> Connection can be kept alive indefinitely 
+2013-10-09 15:06:42,484 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "<?xml version="1.0" encoding="utf-8" ?>[\r][\n]" 
+2013-10-09 15:06:42,484 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "<VAS request_id="1375265728928" version="1.0">[\r][\n]" 
+2013-10-09 15:06:42,484 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "  <SUBID>841234092094</SUBID>[\r][\n]" 
+2013-10-09 15:06:42,484 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "  <ERROR>0</ERROR>[\r][\n]" 
+2013-10-09 15:06:42,485 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "  <ERROR_DESC>BlanceTooLow</ERROR_DESC>[\r][\n]" 
+2013-10-09 15:06:42,485 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "  <PRICE>0</PRICE>[\r][\n]" 
+2013-10-09 15:06:42,485 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "  <PROMOTION>0</PROMOTION>[\r][\n]" 
+2013-10-09 15:06:42,485 | DEBUG | [Thread-11] | org.apache.http.wire:wire(63) ----> << "  <NOTE>HUY</NOTE>[\r][\n]" 
+2013-10-09 15:06:42,485 | DEBUG | [Thread-11] | org.apache.http.wire:wire(77) ----> << "</VAS>" 
+2013-10-09 15:06:42,487 | DEBUG | [Thread-11] | org.apache.http.impl.conn.BasicClientConnectionManager:releaseConnection(201) ----> Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@691b82b2 
+2013-10-09 15:06:42,487 | DEBUG | [Thread-11] | org.apache.http.impl.conn.BasicClientConnectionManager:releaseConnection(227) ----> Connection can be kept alive indefinitely 
+2013-10-09 15:06:42,488 | DEBUG | [Thread-11] | org.apache.http.impl.conn.DefaultClientConnection:close(169) ----> Connection 0.0.0.0:55857<->127.0.0.1:8080 closed 
+2013-10-09 15:06:43,020 | DEBUG | [Thread-11] | class MyProcessMO.Deregister:getMessages(276) ----> -->ServiceID:1546 || MSISDN:841234091674 || Keyword:HUY || Info:Quy Khach da huy thanh cong  HB_diemnonggiaothong cua dich vu M-traffic. De dang ky su dung lai dich vu, Quy Khach vui long soan DK_ma  goi dich vu gui 1546. Cam on Quy Khach da su dung dich vu cua VinaPhone.  || MessageType:1 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:06:32.0 || ChannelType:4 || TenDV: || MaDV: || MO:HUY ||  Note: 
+2013-10-09 15:06:43,024 | DEBUG | [Thread-11] | class MyProcessServer.ContentAbstract:sendMT(211) ----> ContentAbstract_SEND_MT-->ServiceID:1546 || MSISDN:841234091674 || Keyword:HUY || Info:Quy Khach da huy thanh cong  HB_diemnonggiaothong cua dich vu M-traffic. De dang ky su dung lai dich vu, Quy Khach vui long soan DK_ma  goi dich vu gui 1546. Cam on Quy Khach da su dung dich vu cua VinaPhone.  || MessageType:1 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:06:32.0 || ChannelType:1 || TenDV: || MaDV: || MO:HUY ||  Note:SEND MT THANH CONG 
+2013-10-09 15:06:43,025 |  INFO | [Thread-19] | class MyProcessServer.ExecuteInsertReceiveLog:add2SMSReceiveLog(104) ----> add2SMSReceiveLog:841234091674@HUY 
+2013-10-09 15:07:21,490 |  INFO | [Thread-7] | class MyProcessServer.LoadMO:run(125) ----> LoadMO AddToQueue-->ServiceID:1546 || MSISDN:841234091674 || Keyword:DK || Info:DK || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:07:21.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note:Q:1546[Size:1] 
+2013-10-09 15:07:21,494 |  INFO | [Thread-12] | class MyProcessServer.ExecuteQueue:run(102) ----> Check Exist Keyword-->ServiceID:1546 || MSISDN:841234091674 || Keyword:DK || Info:DK || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:07:21.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note:Keyword:DK 
+2013-10-09 15:07:21,494 |  INFO | [Thread-12] | class MyProcessServer.ExecuteQueue:processQueueMsg(181) ----> Call Class Process Keyword-->ServiceID:1546 || MSISDN:841234091674 || Keyword:DK || Info:DK || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:07:21.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note:ClassName:MyProcessMO.Register 
+2013-10-09 15:07:21,634 | DEBUG | [Thread-12] | org.apache.http.impl.conn.BasicClientConnectionManager:getConnection(159) ----> Get connection for route {}->http://localhost:8080 
+2013-10-09 15:07:21,636 | DEBUG | [Thread-12] | org.apache.http.impl.conn.DefaultClientConnectionOperator:openConnection(177) ----> Connecting to localhost:8080 
+2013-10-09 15:07:21,637 | DEBUG | [Thread-12] | org.apache.http.client.protocol.RequestAddCookies:process(132) ----> CookieSpec selected: best-match 
+2013-10-09 15:07:21,638 | DEBUG | [Thread-12] | org.apache.http.client.protocol.RequestAuthCache:process(78) ----> Auth cache not set in the context 
+2013-10-09 15:07:21,639 | DEBUG | [Thread-12] | org.apache.http.client.protocol.RequestTargetAuthentication:process(78) ----> Target auth state: UNCHALLENGED 
+2013-10-09 15:07:21,639 | DEBUG | [Thread-12] | org.apache.http.client.protocol.RequestProxyAuthentication:process(87) ----> Proxy auth state: UNCHALLENGED 
+2013-10-09 15:07:21,640 | DEBUG | [Thread-12] | org.apache.http.impl.client.DefaultHttpClient:tryExecute(715) ----> Attempt 1 to execute request 
+2013-10-09 15:07:21,641 | DEBUG | [Thread-12] | org.apache.http.impl.conn.DefaultClientConnection:sendRequestHeader(269) ----> Sending request: POST /MTraffic_DataSync_V2/VNPCharge_TEst.ashx HTTP/1.1 
+2013-10-09 15:07:21,641 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> >> "POST /MTraffic_DataSync_V2/VNPCharge_TEst.ashx HTTP/1.1[\r][\n]" 
+2013-10-09 15:07:21,641 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> >> "Content-Length: 356[\r][\n]" 
+2013-10-09 15:07:21,642 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> >> "Content-Type: text/xml; charset=UTF-8[\r][\n]" 
+2013-10-09 15:07:21,642 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> >> "Host: localhost:8080[\r][\n]" 
+2013-10-09 15:07:21,642 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> >> "Connection: Keep-Alive[\r][\n]" 
+2013-10-09 15:07:21,642 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]" 
+2013-10-09 15:07:21,642 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> >> "[\r][\n]" 
+2013-10-09 15:07:21,643 | DEBUG | [Thread-12] | org.apache.http.headers:sendRequestHeader(273) ----> >> POST /MTraffic_DataSync_V2/VNPCharge_TEst.ashx HTTP/1.1 
+2013-10-09 15:07:21,643 | DEBUG | [Thread-12] | org.apache.http.headers:sendRequestHeader(276) ----> >> Content-Length: 356 
+2013-10-09 15:07:21,644 | DEBUG | [Thread-12] | org.apache.http.headers:sendRequestHeader(276) ----> >> Content-Type: text/xml; charset=UTF-8 
+2013-10-09 15:07:21,644 | DEBUG | [Thread-12] | org.apache.http.headers:sendRequestHeader(276) ----> >> Host: localhost:8080 
+2013-10-09 15:07:21,644 | DEBUG | [Thread-12] | org.apache.http.headers:sendRequestHeader(276) ----> >> Connection: Keep-Alive 
+2013-10-09 15:07:21,644 | DEBUG | [Thread-12] | org.apache.http.headers:sendRequestHeader(276) ----> >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5) 
+2013-10-09 15:07:21,644 | DEBUG | [Thread-12] | org.apache.http.wire:wire(77) ----> >> "<?xml version="1.0" encoding="utf-8" standalone="yes" ?><VAS request_id="1381306041624"><REQ name="MTRAFFIC" user="mtraffic" password="mtraffic#1235"><SUBSCRIBER><SUBID>841234091674</SUBID><PRICE>0</PRICE><REASON>REG_DN_WEEKLY</REASON><ORIGINALPRICE>5000</ORIGINALPRICE><PROMOTION>1</PROMOTION><NOTE>DK</NOTE><CHANNEL>WAP</CHANNEL></SUBSCRIBER></REQ></VAS>" 
+2013-10-09 15:07:21,686 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "HTTP/1.1 200 OK[\r][\n]" 
+2013-10-09 15:07:21,686 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "Cache-Control: private[\r][\n]" 
+2013-10-09 15:07:21,687 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "Content-Type: text/xml; charset=utf-8[\r][\n]" 
+2013-10-09 15:07:21,687 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "Server: Microsoft-IIS/7.5[\r][\n]" 
+2013-10-09 15:07:21,687 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "X-AspNet-Version: 2.0.50727[\r][\n]" 
+2013-10-09 15:07:21,687 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "X-Powered-By: ASP.NET[\r][\n]" 
+2013-10-09 15:07:21,687 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "Date: Wed, 09 Oct 2013 08:07:21 GMT[\r][\n]" 
+2013-10-09 15:07:21,688 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "Content-Length: 255[\r][\n]" 
+2013-10-09 15:07:21,688 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "[\r][\n]" 
+2013-10-09 15:07:21,688 | DEBUG | [Thread-12] | org.apache.http.impl.conn.DefaultClientConnection:receiveResponseHeader(254) ----> Receiving response: HTTP/1.1 200 OK 
+2013-10-09 15:07:21,688 | DEBUG | [Thread-12] | org.apache.http.headers:receiveResponseHeader(257) ----> << HTTP/1.1 200 OK 
+2013-10-09 15:07:21,688 | DEBUG | [Thread-12] | org.apache.http.headers:receiveResponseHeader(260) ----> << Cache-Control: private 
+2013-10-09 15:07:21,688 | DEBUG | [Thread-12] | org.apache.http.headers:receiveResponseHeader(260) ----> << Content-Type: text/xml; charset=utf-8 
+2013-10-09 15:07:21,689 | DEBUG | [Thread-12] | org.apache.http.headers:receiveResponseHeader(260) ----> << Server: Microsoft-IIS/7.5 
+2013-10-09 15:07:21,689 | DEBUG | [Thread-12] | org.apache.http.headers:receiveResponseHeader(260) ----> << X-AspNet-Version: 2.0.50727 
+2013-10-09 15:07:21,689 | DEBUG | [Thread-12] | org.apache.http.headers:receiveResponseHeader(260) ----> << X-Powered-By: ASP.NET 
+2013-10-09 15:07:21,689 | DEBUG | [Thread-12] | org.apache.http.headers:receiveResponseHeader(260) ----> << Date: Wed, 09 Oct 2013 08:07:21 GMT 
+2013-10-09 15:07:21,689 | DEBUG | [Thread-12] | org.apache.http.headers:receiveResponseHeader(260) ----> << Content-Length: 255 
+2013-10-09 15:07:21,690 | DEBUG | [Thread-12] | org.apache.http.impl.client.DefaultHttpClient:execute(545) ----> Connection can be kept alive indefinitely 
+2013-10-09 15:07:21,690 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "<?xml version="1.0" encoding="utf-8" ?>[\r][\n]" 
+2013-10-09 15:07:21,690 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "<VAS request_id="1375265728928" version="1.0">[\r][\n]" 
+2013-10-09 15:07:21,690 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "  <SUBID>841234092094</SUBID>[\r][\n]" 
+2013-10-09 15:07:21,690 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "  <ERROR>0</ERROR>[\r][\n]" 
+2013-10-09 15:07:21,691 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "  <ERROR_DESC>BlanceTooLow</ERROR_DESC>[\r][\n]" 
+2013-10-09 15:07:21,691 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "  <PRICE>0</PRICE>[\r][\n]" 
+2013-10-09 15:07:21,691 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "  <PROMOTION>0</PROMOTION>[\r][\n]" 
+2013-10-09 15:07:21,691 | DEBUG | [Thread-12] | org.apache.http.wire:wire(63) ----> << "  <NOTE>HUY</NOTE>[\r][\n]" 
+2013-10-09 15:07:21,691 | DEBUG | [Thread-12] | org.apache.http.wire:wire(77) ----> << "</VAS>" 
+2013-10-09 15:07:21,692 | DEBUG | [Thread-12] | org.apache.http.impl.conn.BasicClientConnectionManager:releaseConnection(201) ----> Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@66fcb945 
+2013-10-09 15:07:21,692 | DEBUG | [Thread-12] | org.apache.http.impl.conn.BasicClientConnectionManager:releaseConnection(227) ----> Connection can be kept alive indefinitely 
+2013-10-09 15:07:21,692 | DEBUG | [Thread-12] | org.apache.http.impl.conn.DefaultClientConnection:close(169) ----> Connection 0.0.0.0:55863<->127.0.0.1:8080 closed 
+2013-10-09 15:07:21,800 | DEBUG | [Thread-12] | class MyProcessMO.Register:getMessages(429) ----> -->ServiceID:1546 || MSISDN:841234091674 || Keyword:DK || Info:Quy Khach dang duoc mien phi su dung goi HB_diemnonggiaothong cua dich vu M-traffic. De biet them chi tiet, Quy Khach vui long lien he tong dai 9191 hoac truy cap website: http://vinaphone.com.vn || MessageType:1 || ContentType:21 || RequestID:1234567890 || RequestTime:2013-10-09 15:07:21.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note: 
+2013-10-09 15:07:21,803 | DEBUG | [Thread-12] | class MyProcessServer.ContentAbstract:sendMT(211) ----> ContentAbstract_SEND_MT-->ServiceID:1546 || MSISDN:841234091674 || Keyword:DK || Info:Quy Khach dang duoc mien phi su dung goi HB_diemnonggiaothong cua dich vu M-traffic. De biet them chi tiet, Quy Khach vui long lien he tong dai 9191 hoac truy cap website: http://vinaphone.com.vn || MessageType:1 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:07:21.0 || ChannelType:1 || TenDV: || MaDV: || MO:DK ||  Note:SEND MT THANH CONG 
+2013-10-09 15:07:21,803 |  INFO | [Thread-19] | class MyProcessServer.ExecuteInsertReceiveLog:add2SMSReceiveLog(104) ----> add2SMSReceiveLog:841234091674@DK 
+2013-10-09 15:23:13,204 | DEBUG | [main] | class MyProcessServer.LocalConfig:loadProperties(179) ----> Reading configuration file config.properties 
+2013-10-09 15:23:14,900 |  INFO | [Thread-4] | class MyProcessServer.ProcessLoadKeyword:run(115) ----> LoadConfig - Start 
+2013-10-09 15:23:15,983 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(115) ----> Loaded. 
+2013-10-09 15:23:15,983 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(227) ----> loadSMSDataTable:data.dat 
+2013-10-09 15:23:15,984 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(236) ----> data.dat is empty 
+2013-10-09 15:23:15,984 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(279) ----> Deleting.....: data.dat 
+2013-10-09 15:23:15,985 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(227) ----> loadSMSDataTable:receivelog.dat 
+2013-10-09 15:23:15,985 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(236) ----> receivelog.dat is empty 
+2013-10-09 15:23:15,985 |  INFO | [main] | class MyProcessServer.ConsoleSRV:loadSMSDataTable(279) ----> Deleting.....: receivelog.dat 
+2013-10-09 15:23:15,985 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(122) ----> Start: LoadMO 
+2013-10-09 15:23:16,039 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(139) ----> Start: ExecuteQueue 
+2013-10-09 15:23:16,105 | DEBUG | [main] | class MyProcessServer.ConsoleSRV:Init(147) ----> Start: ExecuteInsertReceiveLog 
+2013-10-09 15:23:16,127 | DEBUG | [Thread-20] | class MyProcess.CheckCharge:run(31) ----> ---------------BAT DAU CHECK CHARGING -------------------- 
+2013-10-09 15:23:16,128 | DEBUG | [Thread-20] | class MyProcess.CheckCharge:run(61) ----> CHECK CHARGING SE Delay 60 Phut. 
+2013-10-09 15:23:16,128 | DEBUG | [Thread-20] | class MyProcess.CheckCharge:run(62) ----> ---------------KET THUC CHECK PUSH -------------------- 
+2013-10-09 15:23:16,129 | DEBUG | [Thread-0] | class MyProcessServer.ConsoleSRV:run(358) ----> Listen MO............................................................... 
+2013-10-09 15:23:20,071 |  INFO | [Thread-8] | class MyProcessServer.LoadMO:run(125) ----> LoadMO AddToQueue-->ServiceID:1546 || MSISDN:84848882005 || Keyword:DK || Info:DK || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:23:20.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note:Q:1546[Size:0] 
+2013-10-09 15:23:20,071 |  INFO | [Thread-9] | class MyProcessServer.ExecuteQueue:run(102) ----> Check Exist Keyword-->ServiceID:1546 || MSISDN:84848882005 || Keyword:DK || Info:DK || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:23:20.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note:Keyword:DK 
+2013-10-09 15:23:20,076 |  INFO | [Thread-9] | class MyProcessServer.ExecuteQueue:processQueueMsg(181) ----> Call Class Process Keyword-->ServiceID:1546 || MSISDN:84848882005 || Keyword:DK || Info:DK || MessageType:0 || ContentType:0 || RequestID:1234567890 || RequestTime:2013-10-09 15:23:20.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note:ClassName:MyProcessMO.Register 
+2013-10-09 15:23:20,409 | DEBUG | [Thread-9] | org.apache.http.impl.conn.BasicClientConnectionManager:getConnection(159) ----> Get connection for route {}->http://localhost:8080 
+2013-10-09 15:23:20,429 | DEBUG | [Thread-9] | org.apache.http.impl.conn.DefaultClientConnectionOperator:openConnection(177) ----> Connecting to localhost:8080 
+2013-10-09 15:23:20,458 | DEBUG | [Thread-9] | org.apache.http.client.protocol.RequestAddCookies:process(132) ----> CookieSpec selected: best-match 
+2013-10-09 15:23:20,476 | DEBUG | [Thread-9] | org.apache.http.client.protocol.RequestAuthCache:process(78) ----> Auth cache not set in the context 
+2013-10-09 15:23:20,477 | DEBUG | [Thread-9] | org.apache.http.client.protocol.RequestTargetAuthentication:process(78) ----> Target auth state: UNCHALLENGED 
+2013-10-09 15:23:20,478 | DEBUG | [Thread-9] | org.apache.http.client.protocol.RequestProxyAuthentication:process(87) ----> Proxy auth state: UNCHALLENGED 
+2013-10-09 15:23:20,478 | DEBUG | [Thread-9] | org.apache.http.impl.client.DefaultHttpClient:tryExecute(715) ----> Attempt 1 to execute request 
+2013-10-09 15:23:20,478 | DEBUG | [Thread-9] | org.apache.http.impl.conn.DefaultClientConnection:sendRequestHeader(269) ----> Sending request: POST /MTraffic_DataSync_V2/VNPCharge_TEst.ashx HTTP/1.1 
+2013-10-09 15:23:20,479 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> >> "POST /MTraffic_DataSync_V2/VNPCharge_TEst.ashx HTTP/1.1[\r][\n]" 
+2013-10-09 15:23:20,481 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> >> "Content-Length: 355[\r][\n]" 
+2013-10-09 15:23:20,481 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> >> "Content-Type: text/xml; charset=UTF-8[\r][\n]" 
+2013-10-09 15:23:20,481 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> >> "Host: localhost:8080[\r][\n]" 
+2013-10-09 15:23:20,481 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> >> "Connection: Keep-Alive[\r][\n]" 
+2013-10-09 15:23:20,481 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]" 
+2013-10-09 15:23:20,482 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> >> "[\r][\n]" 
+2013-10-09 15:23:20,482 | DEBUG | [Thread-9] | org.apache.http.headers:sendRequestHeader(273) ----> >> POST /MTraffic_DataSync_V2/VNPCharge_TEst.ashx HTTP/1.1 
+2013-10-09 15:23:20,482 | DEBUG | [Thread-9] | org.apache.http.headers:sendRequestHeader(276) ----> >> Content-Length: 355 
+2013-10-09 15:23:20,482 | DEBUG | [Thread-9] | org.apache.http.headers:sendRequestHeader(276) ----> >> Content-Type: text/xml; charset=UTF-8 
+2013-10-09 15:23:20,482 | DEBUG | [Thread-9] | org.apache.http.headers:sendRequestHeader(276) ----> >> Host: localhost:8080 
+2013-10-09 15:23:20,483 | DEBUG | [Thread-9] | org.apache.http.headers:sendRequestHeader(276) ----> >> Connection: Keep-Alive 
+2013-10-09 15:23:20,483 | DEBUG | [Thread-9] | org.apache.http.headers:sendRequestHeader(276) ----> >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5) 
+2013-10-09 15:23:20,483 | DEBUG | [Thread-9] | org.apache.http.wire:wire(77) ----> >> "<?xml version="1.0" encoding="utf-8" standalone="yes" ?><VAS request_id="1381307000204"><REQ name="MTRAFFIC" user="mtraffic" password="mtraffic#1235"><SUBSCRIBER><SUBID>84848882005</SUBID><PRICE>0</PRICE><REASON>REG_DN_WEEKLY</REASON><ORIGINALPRICE>5000</ORIGINALPRICE><PROMOTION>1</PROMOTION><NOTE>DK</NOTE><CHANNEL>WAP</CHANNEL></SUBSCRIBER></REQ></VAS>" 
+2013-10-09 15:23:20,520 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "HTTP/1.1 200 OK[\r][\n]" 
+2013-10-09 15:23:20,523 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "Cache-Control: private[\r][\n]" 
+2013-10-09 15:23:20,523 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "Content-Type: text/xml; charset=utf-8[\r][\n]" 
+2013-10-09 15:23:20,523 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "Server: Microsoft-IIS/7.5[\r][\n]" 
+2013-10-09 15:23:20,524 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "X-AspNet-Version: 2.0.50727[\r][\n]" 
+2013-10-09 15:23:20,524 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "X-Powered-By: ASP.NET[\r][\n]" 
+2013-10-09 15:23:20,524 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "Date: Wed, 09 Oct 2013 08:23:20 GMT[\r][\n]" 
+2013-10-09 15:23:20,524 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "Content-Length: 255[\r][\n]" 
+2013-10-09 15:23:20,524 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "[\r][\n]" 
+2013-10-09 15:23:20,526 | DEBUG | [Thread-9] | org.apache.http.impl.conn.DefaultClientConnection:receiveResponseHeader(254) ----> Receiving response: HTTP/1.1 200 OK 
+2013-10-09 15:23:20,526 | DEBUG | [Thread-9] | org.apache.http.headers:receiveResponseHeader(257) ----> << HTTP/1.1 200 OK 
+2013-10-09 15:23:20,526 | DEBUG | [Thread-9] | org.apache.http.headers:receiveResponseHeader(260) ----> << Cache-Control: private 
+2013-10-09 15:23:20,526 | DEBUG | [Thread-9] | org.apache.http.headers:receiveResponseHeader(260) ----> << Content-Type: text/xml; charset=utf-8 
+2013-10-09 15:23:20,526 | DEBUG | [Thread-9] | org.apache.http.headers:receiveResponseHeader(260) ----> << Server: Microsoft-IIS/7.5 
+2013-10-09 15:23:20,527 | DEBUG | [Thread-9] | org.apache.http.headers:receiveResponseHeader(260) ----> << X-AspNet-Version: 2.0.50727 
+2013-10-09 15:23:20,527 | DEBUG | [Thread-9] | org.apache.http.headers:receiveResponseHeader(260) ----> << X-Powered-By: ASP.NET 
+2013-10-09 15:23:20,527 | DEBUG | [Thread-9] | org.apache.http.headers:receiveResponseHeader(260) ----> << Date: Wed, 09 Oct 2013 08:23:20 GMT 
+2013-10-09 15:23:20,527 | DEBUG | [Thread-9] | org.apache.http.headers:receiveResponseHeader(260) ----> << Content-Length: 255 
+2013-10-09 15:23:20,533 | DEBUG | [Thread-9] | org.apache.http.impl.client.DefaultHttpClient:execute(545) ----> Connection can be kept alive indefinitely 
+2013-10-09 15:23:20,541 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "<?xml version="1.0" encoding="utf-8" ?>[\r][\n]" 
+2013-10-09 15:23:20,541 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "<VAS request_id="1375265728928" version="1.0">[\r][\n]" 
+2013-10-09 15:23:20,541 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "  <SUBID>841234092094</SUBID>[\r][\n]" 
+2013-10-09 15:23:20,542 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "  <ERROR>0</ERROR>[\r][\n]" 
+2013-10-09 15:23:20,542 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "  <ERROR_DESC>BlanceTooLow</ERROR_DESC>[\r][\n]" 
+2013-10-09 15:23:20,542 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "  <PRICE>0</PRICE>[\r][\n]" 
+2013-10-09 15:23:20,542 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "  <PROMOTION>0</PROMOTION>[\r][\n]" 
+2013-10-09 15:23:20,542 | DEBUG | [Thread-9] | org.apache.http.wire:wire(63) ----> << "  <NOTE>HUY</NOTE>[\r][\n]" 
+2013-10-09 15:23:20,543 | DEBUG | [Thread-9] | org.apache.http.wire:wire(77) ----> << "</VAS>" 
+2013-10-09 15:23:20,543 | DEBUG | [Thread-9] | org.apache.http.impl.conn.BasicClientConnectionManager:releaseConnection(201) ----> Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@39b6a053 
+2013-10-09 15:23:20,543 | DEBUG | [Thread-9] | org.apache.http.impl.conn.BasicClientConnectionManager:releaseConnection(227) ----> Connection can be kept alive indefinitely 
+2013-10-09 15:23:20,544 | DEBUG | [Thread-9] | org.apache.http.impl.conn.DefaultClientConnection:close(169) ----> Connection 0.0.0.0:55984<->127.0.0.1:8080 closed 
+2013-10-09 15:23:20,846 | DEBUG | [Thread-9] | class MyProcessMO.Register:getMessages(429) ----> -->ServiceID:1546 || MSISDN:84848882005 || Keyword:DK || Info:Chuc mung Quy Khach da dang ky thanh cong goi HB_diemnonggiaothong cua dich vu M-traffic, Quy Khach duoc mien phi 7 ngay trai nghiem dich vu, sau khi het thoi han mien cuoc, VinaPhone se tinh cuoc dich vu nhu thong thuong (5.000vnd/tuan). De huy dich vu, Quy Khach soan HUY_ma goi  gui 1546. Cam on Quy Khach da su dung dich vu cua VinaPhone. || MessageType:1 || ContentType:21 || RequestID:1234567890 || RequestTime:2013-10-09 15:23:20.0 || ChannelType:4 || TenDV: || MaDV: || MO:DK ||  Note: 
+2013-10-09 15:23:20,853 | DEBUG | [Thread-9] | class MyProcessServer.ContentAbstract:sendMT(211) ----> ContentAbstract_SEND_MT-->ServiceID:1546 || MSISDN:84848882005 || Keyword:DK || Info:Chuc mung Quy Khach da dang ky thanh cong goi HB_diemnonggiaothong cua dich vu M-traffic, Quy Khach duoc mien phi 7 ngay trai nghiem dich vu, sau khi het thoi han mien cuoc, VinaPhone se tinh cuoc dich vu nhu thong thuong (5.000vnd/tuan). De huy dich vu, Quy Khach soan HUY_ma goi  gui 1546. Cam on Quy Khach da su dung dich vu cua VinaPhone. || MessageType:1 || ContentType:21 || RequestID:1234567890 || RequestTime:2013-10-09 15:23:20.0 || ChannelType:1 || TenDV: || MaDV: || MO:DK ||  Note:SEND MT THANH CONG 
+2013-10-09 15:23:20,854 |  INFO | [Thread-19] | class MyProcessServer.ExecuteInsertReceiveLog:add2SMSReceiveLog(104) ----> add2SMSReceiveLog:84848882005@DK 
