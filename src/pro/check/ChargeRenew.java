@@ -210,7 +210,7 @@ public class ChargeRenew extends Thread
 							MTContent = MTContent.replace("[Date]",
 									MyConfig.Get_DateFormat_VNShort().format(mCal_NewExpireDate.getTime()));
 							
-							//yêu cầu của Chi, Tùng bỏ đ
+							//yêu cầu của Chi, Tùng bỏ đi
 							if (Common.SendMT(mCTObject, MTContent))
 							{
 								mLog.log.debug("GUI MT RENEW THANH CONG:" + MTContent);
@@ -307,6 +307,9 @@ public class ChargeRenew extends Thread
 			mNewRow.SetValueCell("TotalMT", mRow.GetValueCell("TotalMT"));
 			mNewRow.SetValueCell("TotalMTByDay", mRow.GetValueCell("TotalMTByDay"));
 			mNewRow.SetValueCell("OrderID", mRow.GetValueCell("OrderID"));
+			
+			if (mRow.GetValueCell("PartnerID") != null)
+				mNewRow.SetValueCell("PartnerID", mRow.GetValueCell("PartnerID"));
 
 			if (mRow.GetValueCell("LastUpdate") != null)
 				mNewRow.SetValueCell("LastUpdate", mRow.GetValueCell("LastUpdate"));

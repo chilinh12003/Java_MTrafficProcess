@@ -339,7 +339,7 @@ public class Register extends ContentAbstract
 
 			mSubObj.PID = MyConvert.GetPIDByMSISDN(mMsgObject.getUserid(), LocalConfig.MAX_PID);
 
-			mSubObj.PartnerID = mKeyword.GetPartnerID(msgObject.getKeyword());
+			mSubObj.PartnerID = mKeyword.GetPartnerID(msgObject.getUsertext());
 
 			// Đăng ký mới (chưa từng đăng ký trước đây)
 			if (mSubObj.IsNull())
