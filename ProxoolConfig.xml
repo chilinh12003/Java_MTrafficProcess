@@ -16,11 +16,11 @@
 	</proxool>	
 	<proxool>
 		<alias>MSSQL</alias>
-		<driver-url>jdbc:sqlserver://10.10.0.50:1433;DatabaseName=MTraffic</driver-url>
+		<driver-url>jdbc:sqlserver://localhost:1433;DatabaseName=MTraffic</driver-url>
 		<driver-class>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-class>
 		<driver-properties>
-			<property name="user" value="linhnc" />
-			<property name="password" value="123456" />
+			<property name="user" value="sa" />
+			<property name="password" value="bavama" />
 		</driver-properties>
 		<maximum-connection-count>1000</maximum-connection-count>
 		<simultaneous-build-throttle>1000</simultaneous-build-throttle>

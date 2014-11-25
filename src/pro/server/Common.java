@@ -99,12 +99,12 @@ public class Common
 			return 1;
 
 		}
-		if (msgObject.getUsertext().length() <= 254)
+		if (msgObject.getUsertext().length() <= 160)
 		{
 			msgObject.setContenttype(0);
 		}
 
-		if (msgObject.getContenttype() == 0 && msgObject.getUsertext().length() > 254)
+		if (msgObject.getContenttype() == 0 && msgObject.getUsertext().length() > 160)
 		{
 
 			String mtcontent = msgObject.getUsertext();
@@ -189,7 +189,7 @@ public class Common
 			String REQUEST_ID = Long.toString(System.currentTimeMillis());
 			Integer ContentType = 0;
 			
-			if(MTContent.length() >254)
+			if(MTContent.length() >160)
 				ContentType = LocalConfig.LONG_MESSAGE_CONTENT_TYPE;
 			
 			return mSendQueue.Insert(USER_ID, SERVICE_ID, COMMAND_CODE, MTContent, REQUEST_ID,ContentType.toString());

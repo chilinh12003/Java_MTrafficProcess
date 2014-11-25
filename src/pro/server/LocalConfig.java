@@ -56,7 +56,7 @@ public class LocalConfig
 	/**
 	 * Cấu hình cho phép bắn MT dài theo content Type là gì
 	 */
-	public static Integer LONG_MESSAGE_CONTENT_TYPE = 0;
+	public static Integer LONG_MESSAGE_CONTENT_TYPE = 21;
 
 	/**
 	 * Nếu bản tin thì cần delay để đảm bảo tin push đủ cho khách hàng

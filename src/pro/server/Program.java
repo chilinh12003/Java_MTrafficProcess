@@ -10,7 +10,6 @@ import java.io.ObjectOutputStream;
 import java.util.Enumeration;
 import java.util.Vector;
 import java.util.concurrent.atomic.AtomicLong;
-
 import pro.check.CheckCharge;
 import uti.utility.MyLogger;
 import dat.service.DefineMT;
@@ -95,13 +94,16 @@ public class Program extends Thread
 
 	private void Init() throws Exception
 	{
+		
+		System.out.println("Loading...");
+		LocalConfig.mDBConfig_MySQL.FisrtTestConnection();
+		
 		// Tạo đối tượng lấy dữ liệu trong table Keyword_Config
 		// Mỗi 1 phút lại lấy 1 lần
 		mLoadKeyword = new ProcessLoadKeyword();
 		mLoadKeyword.setPriority(Thread.MAX_PRIORITY);
 		mLoadKeyword.start();
 
-		System.out.println("Loading...");
 		while (!mLoadKeyword.isLoaded)
 		{
 			try
